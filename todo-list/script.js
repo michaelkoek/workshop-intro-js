@@ -1,3 +1,5 @@
+console.log("successfully Iron Hacking");
+
 function getQuote() {
     const listOfQuotes = [
         {
@@ -24,3 +26,5 @@ function onAddItem() {}
 function onCheckItem() {}
 
 function onRemoveItem() {}
+
+function getYear() {}
