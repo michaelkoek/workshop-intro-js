@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="stylesheet" href="./styles.css" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./favicon//favicon-32x32.png"
+        />
+        <title>My good mornings list</title>
+    </head>
+    <body onload="getQuote();">
+        <main class="app-container">
+            <header>
+                <h1 id="main-title">My good morning TODO's</h1>
+
+                <article class="quote-container">
+                    <blockquote id="quote-block"></blockquote>
+                    <span id="quote-author"></span>
+                </article>
+            </header>
+
+            <section>
+                <section class="add-container">
+                    <input
+                        class="input-field"
+                        id="add-input-todo"
+                        type="text"
+                        name="added-field"
+                    />
+                    <button class="btn" onclick="onAddItem()">+</button>
+                </section>
+
+                <ul id="todo-list-container"></ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>
+                &copy; <span id="current-year"></span> |
+                <a href="https://www.ironhack.com" class="footer-link">Iron Hack</a>
+            </p>
+        </footer>
+        <script src="./final-script.js" type="text/javascript" /></script>
+    </body>
+</html>
